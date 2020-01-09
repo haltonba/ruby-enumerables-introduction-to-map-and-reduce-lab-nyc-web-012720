@@ -36,7 +36,7 @@ def reduce_to_total (array)
     total += array[counter]
     counter += 1
   end
-  array
+  total
 end
 
 
