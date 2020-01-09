@@ -43,6 +43,8 @@ def reduce_to_all_true (source_array)
   while counter < source_array.length do
     if !source_array[counter]
       return false
+    end
+    counter += 1
   end
   true
 end
