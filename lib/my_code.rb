@@ -31,7 +31,11 @@ end
 
 def reduce_to_total (source_array, starting_point = 100)
   counter = 0
+  if starting_point
   total = starting_point
+  else
+    total = 0
+  end
   while counter < source_array.length do
     total += source_array[counter]
     counter += 1
