@@ -29,7 +29,7 @@ def map_to_square (array)
   array
 end
 
-def reduce_to_total (source_array, starting_point = 100)
+def reduce_to_total (source_array, starting_point)
   counter = 0
   if starting_point
   total = starting_point
