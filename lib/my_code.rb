@@ -28,3 +28,31 @@ def map_to_square (array)
   end
   array
 end
+
+def reduce_to_total (array)
+  counter = 0
+  total = 0 
+  while counter < array.length do
+    
+    counter += 1
+  end
+  array
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
